@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+body {
+    display: block;
+    background: rgba(250, 247, 247, 0.91);
+}
+
+.divider {
+    height: 1px;
+    background: black;
+}
+
+.app-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding-top: 95px;
+    background-color: whitesmoke;
+}
+
+.carousel-container {
+    display: flex;
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+.carousel-container__content {
+    background-color: white;
+    margin-left: 10px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: italic;
+    border: 4px solid #c0bfbf;
+    border-radius: 7px;
+    text-indent: 25px;
+}
+
+.image__content {
+    max-width: 100%;
+}
+
+.content-container {
+    background-color: white;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 500;
+    border: 4px solid #c0bfbf;
+    border-radius: 7px;
+    text-indent: 25px;
+}
+
+.sub-content-container__images-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sub-content-container__label {
+    font-family: Oswald;
+    font-size: 25px;
+}
+
+.sub-content-container {
+    padding: 10px;
+    margin-top: 30px
+}
+
+.sub-content__item {
+    width: 280px;
+    height: 200px;
+    transition: all 0.5s;
+    border: 5px solid white;
+    background-color: white;
+    border-radius: 7px;
+    text-decoration: none;
+    margin: 15px 45px;
+}
+
+.sub-content__item :hover {
+    opacity: 0.7;
+}
+
+.sub-content-item__image{
+    height: 85%;
+    width: 100%;
+    background-repeat: no-repeat;
+    transition: all 0.5s;
+}
+
+.sub-content-item__label {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    font-family: Oswald;
+    font-size: 20px;
+    color: #021d49;
+    font-weight: bold;
+}
+
+.footer-container {
+    background-color: #64ccc9;
+    margin-top: 15px;
+    padding: 10px;
+    justify-content: center;
+}
+
+.footer-container__label {
+    font-family: Oswald;
+    font-size: 25px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+.footer-container__socials {
+    padding-left: 10px;
+}
